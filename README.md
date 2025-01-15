@@ -8,11 +8,7 @@ SciencePack is designed to provide you with essential technical skills through i
 
 ## Program Overview
 
-In this program, you will master Computer-Aided Design (CAD) software, enabling you to create precise technical drawings and 3D models. You'll learn to use Jupyter notebooks for data analysis and scientific computing, combining code with documentation to create reproducible research.
-
-The program includes comprehensive training in curve fitting and data analysis, teaching you to extract meaningful patterns from experimental data. You'll gain practical experience with electronics through soldering workshops, where you'll learn to create robust electrical connections and build basic circuits.
-
-Our oscilloscope training will help you visualize and analyze electrical signals, a fundamental skill for electronics work. You'll also explore version control with Git, enabling you to track changes in your work and collaborate effectively with others.
+In this program, you will master Computer-Aided Design (CAD) software, enabling you to create precise technical drawings and 3D models. You'll learn to use Jupyter notebooks for data analysis and scientific computing, combining code with documentation to create reproducible research. The program includes comprehensive training in curve fitting and data analysis, teaching you to extract meaningful patterns from experimental data. You'll gain practical experience with electronics through soldering workshops, where you'll learn to create robust electrical connections and build basic circuits. Our oscilloscope training will help you visualize and analyze electrical signals, a fundamental skill for electronics work. 
 
 ## Learning Approach
 
