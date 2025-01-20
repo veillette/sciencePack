@@ -105,3 +105,28 @@ v = 100 meters / 500 nanoseconds = 2 × 10⁸ meters/second
 This is roughly 2/3 of the speed of light in a vacuum (3 × 10⁸ m/s), which is exactly what we'd expect for a typical coax cable.
 
 This measurement technique is not only educational but also practical - it's used in cable manufacturing to verify cable specifications and in network testing to determine cable lengths and locate breaks or faults in cables.
+
+Let me create a clear handout explaining how to use a speaker as a microphone with an oscilloscope.
+
+### Using a Speaker as a Microphone: Measuring Sound Frequency with an Oscilloscope
+
+A speaker can function as a microphone due to the principle of electromagnetic transduction. When used normally, a speaker converts electrical signals into sound by moving a cone attached to a coil in a magnetic field. This process works in reverse too - sound waves hitting the cone cause it to vibrate, moving the coil through the magnetic field and generating a small electrical signal. This reversibility is known as electromagnetic reciprocity.
+
+The signal from a speaker used as a microphone will be quite weak because speakers are optimized for converting electrical energy to sound, not the reverse. Their construction prioritizes efficient sound production rather than sensitive sound detection. Additionally, the speaker cone's mass and suspension are designed for optimal sound output rather than detecting incoming sound waves.
+
+#### Equipment Needed:
+Connect the speaker to the oscilloscope using banana plug cables. The red plug should connect to the positive terminal of the speaker and the oscilloscope's input channel, while the black plug connects to the ground terminals of both devices.
+
+#### Setup Instructions:
+First, set the oscilloscope's voltage scale (V/div) to its most sensitive setting, typically 5 or 10 millivolts per division. Set the timebase (s/div) to 5 milliseconds per division initially - this can be adjusted later to better display the waveform. Enable AC coupling on the input channel to remove any DC offset.
+
+#### Measuring Procedure:
+Position yourself close to the speaker, ideally within a few inches, and make a continuous "aaaa" sound. This vowel sound produces a relatively pure tone that's easier to measure. You should see a periodic waveform appear on the oscilloscope screen. If the signal is too small, try humming slightly louder or moving closer to the speaker.
+
+#### Taking Measurements:
+To measure the frequency, count the number of complete wave cycles across a known time interval. For example, if you see 5 complete cycles across 10 milliseconds (2 divisions at 5 ms/div), the frequency would be 500 Hz (5 cycles / 0.01 seconds = 500 Hz). Alternatively use the oscilloscope's built-in measurement functions.
+
+#### Troubleshooting:
+If you don't see a signal, verify all connections are secure and try adjusting the voltage scale to a more sensitive setting. Background noise and electrical interference can make measurements challenging, so working in a quiet environment is recommended. Remember that the signal will be quite weak, so patience in adjusting the settings may be necessary.
+
+
