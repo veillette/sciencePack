@@ -24,6 +24,6 @@ Safety is our top priority. You will receive thorough safety training before usi
 
 ## Support
 
-Instructors are available during all sessions to provide guidance and answer questions. Additional resources, including tutorial videos and reference materials, are provided to support your learning outside of scheduled sessions.
+A teaching assistant will be available during all sessions to provide guidance and answer questions. Additional resources, including tutorial videos and reference materials, are provided to support your learning outside of scheduled sessions.
 
 Join us in this exciting journey of discovery and skill development with SciencePack, where theory meets practice in the pursuit of scientific excellence.
