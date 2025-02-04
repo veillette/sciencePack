@@ -47,6 +47,9 @@ Navigate to Tools > Document Settings > Units. Set the unit type to millimeters.
 3. Set the radius to 2mm.
 4. Click the green checkmark to apply.
 
+### Adding Features
+To prevent your phone from sliding, you can add some friction features. Create a new sketch on the top surface of the base and draw small rectangular patterns. These can be extruded slightly (about 0.05 inches) to create grip textur
+
 ### Saving Your Work
 1. Click File > Save As
 2. Choose a location on your computer
