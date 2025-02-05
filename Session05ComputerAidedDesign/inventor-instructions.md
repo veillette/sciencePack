@@ -18,28 +18,22 @@ Launch Autodesk Inventor. When the welcome screen appears, click "New" and selec
 First, we'll set up the workspace and units:
 Navigate to Tools > Document Settings > Units. Set the unit type to millimeters. Click "Apply" and "OK."
 
-### Creating the Base
+### Creating the Profile
 1. Start in the "Sketch" environment by selecting "Create 2D Sketch" and choosing the XY plane.
-2. Use the "Rectangle" tool to draw a rectangle approximately 80mm wide by 160mm long. These dimensions match typical phone sizes.
-3. Click the "Dimension" tool and add precise measurements by clicking on each line and typing the exact dimensions.
-4. Select "Finish Sketch" in the ribbon when done.
-
-### Adding Thickness
+2. Use the "Line" tool to draw a the profile of the phone stand as directed.
+3. Click the "Dimension" tools and add the constraints as directed.
+4. Click the "Dimension" tool and add precise measurements by clicking on each line and typing the exact dimensions.
+   
+### Extruding Main Body
 1. Find the "Extrude" command in the "3D Model" tab.
-2. Click on your rectangle and set the extrusion height to 3mm.
+2. Click on your phone stand profile and set the extrusion height to 80 mm.
 3. Click the green checkmark to confirm.
 
-### Creating the Phone Support
-1. Create a new sketch on the top face of your base by clicking "Create 2D Sketch."
-2. Draw a rectangle 15mm from the edge, 70mm wide and 20mm deep.
-3. Use the "Dimension" tool to make it precise.
-4. Exit the sketch and use "Extrude" to raise this section 40mm.
-
-### Adding the Phone Slot
+### Adding the Charging Cable Phone Slot
 1. On the top surface of your support, create another sketch.
 2. Draw a rectangle 10mm wide and 70mm long for the phone slot.
 3. Center it on the support using the "Center" constraint.
-4. Exit the sketch and use "Cut" (found near the Extrude command) to create a 15mm deep slot.
+4. Exit the sketch and use "Cut" (found near the Extrude command) to create a deep slot that goe to the next surface.
 
 ### Creating Fillets (Rounded Edges)
 1. Select the "Fillet" tool from the "3D Model" tab.
