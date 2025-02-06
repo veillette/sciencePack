@@ -21,8 +21,12 @@ Navigate to Tools > Document Settings > Units. Set the unit type to millimeters.
 ### Creating the Profile
 1. Start in the "Sketch" environment by selecting "Create 2D Sketch" and choosing the XY plane.
 2. Use the "Line" tool to draw a the profile of the phone stand as directed.
-3. Click the "Dimension" tools and add the constraints as directed.
-4. Click the "Dimension" tool and add precise measurements by clicking on each line and typing the exact dimensions.
+   I personally thick that it is better to "sketch" in a purpusefully inacurate way, (but with the right topology) 
+4. Click the "Dimension" tools and add the constraints as directed.
+   It helps so start with parallel line constraints, and then you can move on to perpendicular constraints.  
+6. Click the "Dimension" tool and add precise measurements by clicking on each line and typing the exact dimensions.
+   At this point your diagram should like like the following:
+7. Add the fillet to the internal and external outlines for the back and the top of the phone case. (Suggested 8 mm)
    
 ### Extruding Main Body
 1. Find the "Extrude" command in the "3D Model" tab.
@@ -31,17 +35,17 @@ Navigate to Tools > Document Settings > Units. Set the unit type to millimeters.
 
 ### Adding the Charging Cable Phone Slot
 1. On the top surface of your support, create another sketch.
-2. Draw a rectangle 10mm wide and 70mm long for the phone slot.
-3. Center it on the support using the "Center" constraint.
-4. Exit the sketch and use "Cut" (found near the Extrude command) to create a deep slot that goe to the next surface.
+2. Draw a rectangle 18mm wide and 12 mm high for the phone slot.
+3. Center the rectangle onto the 
+4. Exit the sketch and use "Extrude" to create a deep slot that goe to the next surface.
 
-### Creating Fillets (Rounded Edges)
+### Optional: Creating Fillets (Rounded Edges)
 1. Select the "Fillet" tool from the "3D Model" tab.
 2. Click all sharp external edges.
 3. Set the radius to 2mm.
 4. Click the green checkmark to apply.
 
-### Adding Features
+### Optional : Adding Features
 To prevent your phone from sliding, you can add some friction features. Create a new sketch on the top surface of the base and draw small rectangular patterns. These can be extruded slightly (about 0.05 inches) to create grip textur
 
 ### Saving Your Work
