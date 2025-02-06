@@ -98,6 +98,8 @@ One of the best things about CircuitPython is how simple it is to get code up an
 
 To create and edit code, all you'll need is an editor. There are many options. **We will be using Mu! It's designed for CircuitPython, and it's really simple and easy to use, with a built in serial console!**
 
+(https://codewith.mu/en/download)
+
 Creating Code
 
 | ![circuitpython_Screen_Shot_2017-12-24_at_3.20.56_PM.png](media/42aec88f1addf94977b230ccc4ebdb78.png) | Open your editor, and create a new file. If you are using Mu, click the **New** button in the top left |
@@ -105,53 +107,21 @@ Creating Code
 
 Write the following code into your editor:
 
+````python
 1.  import board
-
-***
-
 2.  import digitalio
-
-***
-
 3.  import time
-
-***
-
 4.  
-
-***
-
 5.  led = digitalio.DigitalInOut(board.D13)
-
-***
-
 6.  led.direction = digitalio.Direction.OUTPUT
-
-***
-
 7.  
-
-***
-
 8.  while True:
+9.    led.value = True
+10.   time.sleep(0.5)
+11.   led.value = False
+12.   time.sleep(0.5)
+````
 
-***
-
-9.  led.value = True
-
-***
-
-10. time.sleep(0.5)
-
-***
-
-11. led.value = False
-
-***
-
-12. time.sleep(0.5)
-
-***
 
 | ![circuitpython_Screen_Shot_2017-12-24_at_3.22.58_PM.png](media/61f3a14986dccdd1fd52a17acea545f1.png)   | It will look like this - note that under the while True: line, the next four lines have spaces to indent them, but they're indented exactly the same amount. All other lines have no spaces before the text. |
 |---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -170,57 +140,23 @@ The CircuitPython code on your board detects when the files are changed or writt
 
 Back to Editing Code...
 
-***
 
 Now! Let's try editing the program you added to your board. Open your **code.py** file into your editor. We'll make a simple change. Change the first 0.5 to 0.1. The code should look like this:
 
+````python
 1.  import board
-
-***
-
 2.  import digitalio
-
-***
-
 3.  import time
-
-***
-
 4.  
-
-***
-
 5.  led = digitalio.DigitalInOut(board.D13)
-
-***
-
 6.  led.direction = digitalio.Direction.OUTPUT
-
-***
-
 7.  
-
-***
-
 8.  while True:
-
-***
-
-9.  led.value = True
-
-***
-
-10. time.sleep(0.1)
-
-***
-
-11. led.value = False
-
-***
-
-12. time.sleep(0.5)
-
-***
+9.    led.value = True
+10.   time.sleep(0.1)
+11.   led.value = False
+12.   time.sleep(0.5)
+````
 
 Leave the rest of the code as-is. Save your file. See what happens to the LED on your board? Something changed! Do you know why? Let's find out!
 
@@ -232,57 +168,24 @@ First, we'll take a look at the code we're editing.
 
 Here is the original code again:
 
+````python
 1.  import board
-
-***
-
 2.  import digitalio
-
-***
-
 3.  import time
-
-***
-
 4.  
-
-***
-
 5.  led = digitalio.DigitalInOut(board.D13)
-
-***
-
 6.  led.direction = digitalio.Direction.OUTPUT
-
-***
-
 7.  
-
-***
-
 8.  while True:
-
-***
-
-9.  led.value = True
-
-***
-
-10. time.sleep(0.5)
-
-***
-
-11. led.value = False
-
-***
-
-12. time.sleep(0.5)
-
-***
+9.    led.value = True
+10.   time.sleep(0.5)
+11.   led.value = False
+12.   time.sleep(0.5)
+````
 
 Exercise 3
 
-For this exercise you will learn how to control the status of am external LED
+For this exercise you will learn how to control the status of an external LED
 
 1.  Now, take out the wire that you used to connect the LED to the power bus from the previous circuit. Move this wire over to Digital I/O Pin 12. Pin 12 behaves like a switched power source that the M4 Express can control! It gives 3v or 0v depending on your program. You can vary it at will.
 
