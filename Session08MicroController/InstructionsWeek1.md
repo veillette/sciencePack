@@ -98,6 +98,8 @@ One of the best things about CircuitPython is how simple it is to get code up an
 
 To create and edit code, all you'll need is an editor. There are many options. **We will be using Mu! It's designed for CircuitPython, and it's really simple and easy to use, with a built in serial console!**
 
+(https://codewith.mu/en/download)
+
 Creating Code
 
 | ![circuitpython_Screen_Shot_2017-12-24_at_3.20.56_PM.png](media/42aec88f1addf94977b230ccc4ebdb78.png) | Open your editor, and create a new file. If you are using Mu, click the **New** button in the top left |
