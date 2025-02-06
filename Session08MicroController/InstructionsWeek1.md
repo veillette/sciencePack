@@ -114,10 +114,10 @@ Write the following code into your editor:
 6.  led.direction = digitalio.Direction.OUTPUT
 7.  
 8.  while True:
-9.  led.value = True
-10. time.sleep(0.5)
-11. led.value = False
-12. time.sleep(0.5)
+9.    led.value = True
+10.   time.sleep(0.5)
+11.   led.value = False
+12.   time.sleep(0.5)
 ````
 
 
@@ -150,10 +150,10 @@ Now! Let's try editing the program you added to your board. Open your **code.py*
 6.  led.direction = digitalio.Direction.OUTPUT
 7.  
 8.  while True:
-9.  led.value = True
-10. time.sleep(0.1)
-11. led.value = False
-12. time.sleep(0.5)
+9.    led.value = True
+10.   time.sleep(0.1)
+11.   led.value = False
+12.   time.sleep(0.5)
 ````
 
 Leave the rest of the code as-is. Save your file. See what happens to the LED on your board? Something changed! Do you know why? Let's find out!
@@ -175,10 +175,10 @@ Here is the original code again:
 6.  led.direction = digitalio.Direction.OUTPUT
 7.  
 8.  while True:
-9.  led.value = True
-10. time.sleep(0.5)
-11. led.value = False
-12. time.sleep(0.5)
+9.    led.value = True
+10.   time.sleep(0.5)
+11.   led.value = False
+12.   time.sleep(0.5)
 ````
 
 Exercise 3
