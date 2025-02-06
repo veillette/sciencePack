@@ -105,53 +105,21 @@ Creating Code
 
 Write the following code into your editor:
 
+````python
 1.  import board
-
-***
-
 2.  import digitalio
-
-***
-
 3.  import time
-
-***
-
 4.  
-
-***
-
 5.  led = digitalio.DigitalInOut(board.D13)
-
-***
-
 6.  led.direction = digitalio.Direction.OUTPUT
-
-***
-
 7.  
-
-***
-
 8.  while True:
-
-***
-
 9.  led.value = True
-
-***
-
 10. time.sleep(0.5)
-
-***
-
 11. led.value = False
-
-***
-
 12. time.sleep(0.5)
+````
 
-***
 
 | ![circuitpython_Screen_Shot_2017-12-24_at_3.22.58_PM.png](media/61f3a14986dccdd1fd52a17acea545f1.png)   | It will look like this - note that under the while True: line, the next four lines have spaces to indent them, but they're indented exactly the same amount. All other lines have no spaces before the text. |
 |---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -170,57 +138,23 @@ The CircuitPython code on your board detects when the files are changed or writt
 
 Back to Editing Code...
 
-***
 
 Now! Let's try editing the program you added to your board. Open your **code.py** file into your editor. We'll make a simple change. Change the first 0.5 to 0.1. The code should look like this:
 
+````python
 1.  import board
-
-***
-
 2.  import digitalio
-
-***
-
 3.  import time
-
-***
-
 4.  
-
-***
-
 5.  led = digitalio.DigitalInOut(board.D13)
-
-***
-
 6.  led.direction = digitalio.Direction.OUTPUT
-
-***
-
 7.  
-
-***
-
 8.  while True:
-
-***
-
 9.  led.value = True
-
-***
-
 10. time.sleep(0.1)
-
-***
-
 11. led.value = False
-
-***
-
 12. time.sleep(0.5)
-
-***
+````
 
 Leave the rest of the code as-is. Save your file. See what happens to the LED on your board? Something changed! Do you know why? Let's find out!
 
@@ -232,53 +166,20 @@ First, we'll take a look at the code we're editing.
 
 Here is the original code again:
 
+````python
 1.  import board
-
-***
-
 2.  import digitalio
-
-***
-
 3.  import time
-
-***
-
 4.  
-
-***
-
 5.  led = digitalio.DigitalInOut(board.D13)
-
-***
-
 6.  led.direction = digitalio.Direction.OUTPUT
-
-***
-
 7.  
-
-***
-
 8.  while True:
-
-***
-
 9.  led.value = True
-
-***
-
 10. time.sleep(0.5)
-
-***
-
 11. led.value = False
-
-***
-
 12. time.sleep(0.5)
-
-***
+````
 
 Exercise 3
 
