@@ -48,6 +48,10 @@ Navigate to Tools > Document Settings > Units. Set the unit type to millimeters.
 3. Center the rectangle onto the 
 4. Exit the sketch and use "Extrude" to create a deep slot that goe to the next surface.
 
+Your work should look similar to
+      ![PhoneStandExtruded](extrudedPhoneCaseStand.png)
+
+
 ### Optional: Creating Fillets (Rounded Edges)
 1. Select the "Fillet" tool from the "3D Model" tab.
 2. Click all sharp external edges.
