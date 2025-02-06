@@ -21,12 +21,21 @@ Navigate to Tools > Document Settings > Units. Set the unit type to millimeters.
 ### Creating the Profile
 1. Start in the "Sketch" environment by selecting "Create 2D Sketch" and choosing the XY plane.
 2. Use the "Line" tool to draw a the profile of the phone stand as directed.
-   I personally thick that it is better to "sketch" in a purpusefully inacurate way, (but with the right topology) 
+   I personally think that it is better to "sketch" in a purpusefully inacurate way, (but with the right topology)
+
+   ![PhoneCaseProfileSketch](phoneCaseProfileSketch.png)
+    
 4. Click the "Dimension" tools and add the constraints as directed.
    It helps so start with parallel line constraints, and then you can move on to perpendicular constraints.  
 6. Click the "Dimension" tool and add precise measurements by clicking on each line and typing the exact dimensions.
    At this point your diagram should like like the following:
-7. Add the fillet to the internal and external outlines for the back and the top of the phone case. (Suggested 8 mm)
+
+   
+   ![PhoneCaseProfileBeforeFillet](phoneCaseProfileBeforeFillet.png)
+   
+8. Add the fillet to the internal and external outlines for the back and the top of the phone case. (Suggested 8 mm)
+
+      ![PhoneCaseProfileAfterFillet](phoneCaseProfileAfterFillet.png)
    
 ### Extruding Main Body
 1. Find the "Extrude" command in the "3D Model" tab.
