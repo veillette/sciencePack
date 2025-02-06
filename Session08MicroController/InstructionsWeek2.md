@@ -11,10 +11,10 @@ Here is the original code again:
 6.  led.direction = digitalio.Direction.OUTPUT
 7.  
 8.  while True:
-9.  led.value = True
-10. time.sleep(0.5)
-11. led.value = False
-12. time.sleep(0.5)
+9.    led.value = True
+10.   time.sleep(0.5)
+11.   led.value = False
+12.   time.sleep(0.5)
 ````
 
 Let’s try to understand the components of the program.
@@ -50,10 +50,10 @@ Inside our loop, we have four items:
 
 ````python
 1.  while True:
-2.  led.value = True
-3.  time.sleep(0.5)
-4.  led.value = False
-5.  time.sleep(0.5)
+2.    led.value = True
+3.    time.sleep(0.5)
+4.    led.value = False
+5.    time.sleep(0.5)
 ````
 
 First, we have led.value = True. This line tells the LED to turn on. On the next line, we have time.sleep(0.5). This line is telling CircuitPython to pause running code for 0.5 seconds. Since this is between turning the led on and off, the led will be on for 0.5 seconds.
@@ -103,11 +103,11 @@ Open your code.py file in your editor and include a print statement. You can pri
 6.  led.direction = digitalio.Direction.OUTPUT
 7.  
 8.  while True:
-9.  print("Hello, Class of PHY 130")
-10. led.value = True
-11. time.sleep(1)
-12. led.value = False
-13. time.sleep(1)
+9.    print("Hello, Class of PHY 130")
+10.   led.value = True
+11.   time.sleep(1)
+12.   led.value = False
+13.   time.sleep(1)
 ````
 
 Save your file.
@@ -168,15 +168,15 @@ This example shows how to use both digital input and output. You can use a switc
 11. 
 12. while True:
 13. \# We could also do "led.value = not switch.value"!
-14. if switch.value:
-15. time.sleep(1.0)
-16. led.value = False
-17. 
-18. else:
-19. time.sleep(6.0)
-20. led.value = True
+14.   if switch.value:
+15.     time.sleep(1.0)
+16.     led.value = False
+17.
+18.   else:
+19.     time.sleep(6.0)
+20.     led.value = True
 21. 
-22. time.sleep(0.1) \# small pause
+22.   time.sleep(0.1) \# small pause
 ````
 
 ![](media/3f574c6ed6abdd033583737c1913cbd9.png)
