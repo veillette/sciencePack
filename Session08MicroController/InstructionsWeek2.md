@@ -2,53 +2,20 @@ First, we'll look at the code we have worked on.
 
 Here is the original code again:
 
+````PYTHON
 1.  import board
-
-***
-
 2.  import digitalio
-
-***
-
 3.  import time
-
-***
-
 4.  
-
-***
-
 5.  led = digitalio.DigitalInOut(board.D13)
-
-***
-
 6.  led.direction = digitalio.Direction.OUTPUT
-
-***
-
 7.  
-
-***
-
 8.  while True:
-
-***
-
 9.  led.value = True
-
-***
-
 10. time.sleep(0.5)
-
-***
-
 11. led.value = False
-
-***
-
 12. time.sleep(0.5)
-
-***
+````
 
 Let’s try to understand the components of the program.
 
@@ -56,17 +23,11 @@ Let’s try to understand the components of the program.
 
 Each CircuitPython program you run needs to have a lot of information to work. The reason CircuitPython is so simple to use is that most of that information is stored in other files and works in the background. These files are called **libraries**. Some of them are built into CircuitPython. Others are stored on your CIRCUITPY drive in a folder called **lib**.
 
+````python
 1.  import board
-
-***
-
 2.  import digitalio
-
-***
-
 3.  import time
-
-***
+````
 
 The import statements tell the board that you're going to use a particular library in your code. In this example, we imported three libraries: board, digitalio, and time. All three of these libraries are built into CircuitPython, so no separate files are needed. That's one of the things that makes this an excellent first example. You don't need anything extra to make it work! board gives you access to the *hardware on your board*, digitalio lets you *access that hardware as inputs/outputs* and time let's you pass time by 'sleeping'
 
@@ -74,13 +35,10 @@ The import statements tell the board that you're going to use a particular libra
 
 The next two lines setup the code to use the LED.
 
+````python
 1.  led = digitalio.DigitalInOut(board.D13)
-
-***
-
 2.  led.direction = digitalio.Direction.OUTPUT
-
-***
+````
 
 Your board knows the red LED as D13. So, we initialise that pin, and we set it to output. We set led to equal the rest of that information so we don't have to type it all out again later in our code.
 
@@ -90,25 +48,13 @@ The third section starts with a while statement. while True: essentially means, 
 
 Inside our loop, we have four items:
 
+````python
 1.  while True:
-
-***
-
 2.  led.value = True
-
-***
-
 3.  time.sleep(0.5)
-
-***
-
 4.  led.value = False
-
-***
-
 5.  time.sleep(0.5)
-
-***
+````
 
 First, we have led.value = True. This line tells the LED to turn on. On the next line, we have time.sleep(0.5). This line is telling CircuitPython to pause running code for 0.5 seconds. Since this is between turning the led on and off, the led will be on for 0.5 seconds.
 
@@ -148,57 +94,21 @@ The code you wrote earlier has no output to the serial console. So, we're going 
 
 Open your code.py file in your editor and include a print statement. You can print anything you like! Just include your phrase between the quotation marks inside the parentheses. For example:
 
+````python
 1.  import board
-
-***
-
 2.  import digitalio
-
-***
-
 3.  import time
-
-***
-
 4.  
-
-***
-
 5.  led = digitalio.DigitalInOut(board.D13)
-
-***
-
 6.  led.direction = digitalio.Direction.OUTPUT
-
-***
-
 7.  
-
-***
-
 8.  while True:
-
-***
-
 9.  print("Hello, Class of PHY 130")
-
-***
-
 10. led.value = True
-
-***
-
 11. time.sleep(1)
-
-***
-
 12. led.value = False
-
-***
-
 13. time.sleep(1)
-
-***
+````
 
 Save your file.
 
@@ -244,6 +154,7 @@ The first part of interfacing with hardware is being able to manage digital inpu
 
 This example shows how to use both digital input and output. You can use a switch *input* with a pullup resistor to control a digital output – say, a red LED on pin 12.
 
+````python
 1.  \# CircuitPython General Purpose I/O
 2.  import time
 3.  import board
@@ -266,6 +177,7 @@ This example shows how to use both digital input and output. You can use a switc
 20. led.value = True
 21. 
 22. time.sleep(0.1) \# small pause
+````
 
 ![](media/3f574c6ed6abdd033583737c1913cbd9.png)
 
