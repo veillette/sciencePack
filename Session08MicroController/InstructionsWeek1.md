@@ -185,7 +185,7 @@ Here is the original code again:
 
 Exercise 3
 
-For this exercise you will learn how to control the status of am external LED
+For this exercise you will learn how to control the status of an external LED
 
 1.  Now, take out the wire that you used to connect the LED to the power bus from the previous circuit. Move this wire over to Digital I/O Pin 12. Pin 12 behaves like a switched power source that the M4 Express can control! It gives 3v or 0v depending on your program. You can vary it at will.
 
