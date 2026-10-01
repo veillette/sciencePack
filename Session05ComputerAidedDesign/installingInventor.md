@@ -8,9 +8,9 @@ Welcome to our introductory CAD workshop! In this hands-on session, you'll learn
 
 Before the workshop, please follow these steps to set up Autodesk Inventor on your computer:
 
-First, visit the Autodesk Education Community website (www.autodesk.com/education/edu-software). You'll need to create an account using your student email address. Once your student status is verified, you'll have access to a free educational license for Autodesk Inventor.
+First, visit the [Autodesk Education website](https://www.autodesk.com/education/edu-software/overview) and create an account using your student email address. Autodesk verifies your student status (you may be asked to upload proof of enrollment). Once you are verified, you'll get a free, one-year Education plan for Autodesk Inventor that you can renew each year while you remain a student.
 
-Download the installer appropriate for your operating system (Windows only). The installation process typically takes 15-30 minutes, depending on your internet connection. Make sure you have at least 20GB of free disk space available.
+Inventor runs only on Windows; if you have a Mac, ask your instructor about using a lab computer. Download the installer and run it. The installation typically takes 15–30 minutes, depending on your internet connection. Make sure you have at least 40 GB of free disk space available.
 
 After installation, launch Inventor and sign in with your Autodesk account to activate your educational license.
 

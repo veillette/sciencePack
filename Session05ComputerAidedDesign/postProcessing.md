@@ -1,6 +1,6 @@
 # Post-Processing Your Form 2 Print
 
-## Introduction to post-processing
+## Introduction to Post-Processing
 
 Your print has just been completed, and you're looking at a beautiful piece attached to the build platform – but we're not quite finished yet. Post-processing is crucial for Form 2 prints, transforming them from sticky, uncured models into strong, safe-to-handle final pieces. This guide will walk you through each step of the process, explaining not just what to do, but why each step matters.
 
@@ -22,7 +22,7 @@ After the first wash, let your print drip dry for about 30 seconds, then transfe
 
 ## Drying Your Print
 
-After washing, let your print air dry completely. A paper towel can be used to pat the print, but avoid rubbing, as this might leave marks on the surface.
+After washing, let your print air dry completely; this usually takes at least 30 minutes, and compressed air can speed it up. A paper towel can be used to pat the print, but avoid rubbing, as this might leave marks on the surface.
 
 ## UV Curing
 
@@ -38,7 +38,7 @@ For particularly delicate pieces, you might want to cut the supports in small se
 
 ## Final Finishing
 
-After support removal, you might notice small nubs where the supports were attached. These can be carefully sanded away using fine-grit sandpaper (start with 220 grit and work up to 400 or higher for a smooth finish). Remember to sand in one direction rather than circular motions for the best results. If your print requires a perfectly smooth surface, you can continue with progressively finer grits of sandpaper, all the way up to 2000 grit for a near-polished finish.
+After support removal, you might notice small nubs where the supports were attached. These can be carefully sanded away using fine-grit sandpaper (start with 220 grit and work up to 400 or higher for a smooth finish). For the best results, sand in one direction rather than in circular motions. If your print requires a perfectly smooth surface, you can continue with progressively finer grits of sandpaper, all the way up to 2000 grit for a near-polished finish.
 
 ## Quality Check
 
