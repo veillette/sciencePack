@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" width="520" height="420" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="arrowCurrent" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d62728"/>
+    </marker>
+    <marker id="arrowSpin" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ca02c"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="520" height="420" rx="12" fill="#ffffff"/>
+  <text x="260" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#222">Variation: the hanging-screw motor</text>
+
+  <!-- battery, held in the hand, + on top -->
+  <rect x="245" y="48" width="30" height="12" rx="2" fill="#999" stroke="#555"/>
+  <rect x="230" y="60" width="60" height="190" rx="6" fill="#f2c94c" stroke="#555" stroke-width="1.5"/>
+  <rect x="230" y="205" width="60" height="45" rx="6" fill="#444"/>
+  <text x="260" y="88" text-anchor="middle" font-size="22" font-weight="bold" fill="#333">+</text>
+  <text x="260" y="236" text-anchor="middle" font-size="22" font-weight="bold" fill="#fff">−</text>
+  <text x="300" y="150" fill="#333">hold the battery</text>
+  <text x="300" y="166" fill="#333">upright</text>
+
+  <!-- screw: tip touches the − terminal -->
+  <path d="M260,250 L254,262 L254,330 L266,330 L266,262 z" fill="#aaa" stroke="#555"/>
+  <g stroke="#777" stroke-width="1">
+    <line x1="254" y1="272" x2="266" y2="268"/><line x1="254" y1="284" x2="266" y2="280"/>
+    <line x1="254" y1="296" x2="266" y2="292"/><line x1="254" y1="308" x2="266" y2="304"/>
+    <line x1="254" y1="320" x2="266" y2="316"/>
+  </g>
+  <rect x="240" y="330" width="40" height="8" fill="#aaa" stroke="#555"/>
+  <text x="300" y="295" fill="#333">steel screw, held on</text>
+  <text x="300" y="311" fill="#333">by the magnet's pull</text>
+
+  <!-- magnet stuck to screw head -->
+  <rect x="205" y="338" width="110" height="24" rx="3" fill="#b8b8c8" stroke="#555" stroke-width="1.5"/>
+  <text x="335" y="356" fill="#333">disc magnet</text>
+
+  <!-- wire held by hand from + to magnet edge -->
+  <path d="M260,48 L260,38 L140,38 Q120,38 120,58 L120,330 Q120,350 140,350 L205,350"
+        fill="none" stroke="#c46a1a" stroke-width="4" stroke-linejoin="round"/>
+  <text x="30" y="190" fill="#c46a1a" font-weight="bold">wire</text>
+  <text x="30" y="206" fill="#c46a1a" font-size="12">touch it lightly</text>
+  <text x="30" y="220" fill="#c46a1a" font-size="12">to the magnet's side</text>
+  <line x1="120" y1="240" x2="120" y2="280" stroke="#d62728" stroke-width="3" marker-end="url(#arrowCurrent)"/>
+  <line x1="210" y1="343" x2="245" y2="343" stroke="#d62728" stroke-width="2.5" marker-end="url(#arrowCurrent)"/>
+
+  <!-- spin arrow -->
+  <path d="M200,385 A70,14 0 1 0 330,385" fill="none" stroke="#2ca02c" stroke-width="2.5" marker-end="url(#arrowSpin)"/>
+  <text x="350" y="395" fill="#2ca02c" font-weight="bold">screw + magnet spin</text>
+</svg>

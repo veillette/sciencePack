@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" width="560" height="440" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="arrowCurrent" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d62728"/>
+    </marker>
+    <marker id="arrowField" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f77b4"/>
+    </marker>
+    <marker id="arrowSpin" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ca02c"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="560" height="440" rx="12" fill="#ffffff"/>
+  <text x="280" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#222">Monopolar motor — side view</text>
+
+  <!-- rotation arrow around the axis -->
+  <path d="M190,52 A70,14 0 0 0 330,52" fill="none" stroke="#2ca02c" stroke-width="2.5" marker-end="url(#arrowSpin)"/>
+  <text x="345" y="52" fill="#2ca02c" font-weight="bold">wire spins</text>
+
+  <!-- table -->
+  <line x1="60" y1="390" x2="500" y2="390" stroke="#888" stroke-width="2"/>
+  <text x="70" y="410" fill="#888" font-size="12">table</text>
+
+  <!-- magnet -->
+  <rect x="190" y="355" width="140" height="35" rx="3" fill="#b8b8c8" stroke="#555" stroke-width="1.5"/>
+  <text x="385" y="362" fill="#333">neodymium disc</text>
+  <text x="385" y="378" fill="#333">magnet, N face up</text>
+
+  <!-- battery -->
+  <rect x="230" y="100" width="60" height="255" rx="6" fill="#f2c94c" stroke="#555" stroke-width="1.5"/>
+  <rect x="230" y="300" width="60" height="55" rx="6" fill="#444"/>
+  <rect x="245" y="88" width="30" height="12" rx="2" fill="#999" stroke="#555"/>
+  <text x="260" y="130" text-anchor="middle" font-size="22" font-weight="bold" fill="#333">+</text>
+  <text x="260" y="337" text-anchor="middle" font-size="22" font-weight="bold" fill="#fff">−</text>
+  <text x="260" y="225" text-anchor="middle" fill="#333" transform="rotate(-90 260 225)">AA battery (1.5 V)</text>
+
+  <!-- copper wire -->
+  <path d="M260,88 L260,78 L170,78 Q150,78 150,98 L150,345 Q150,370 172,370 L190,370"
+        fill="none" stroke="#c46a1a" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M260,88 L260,78 L350,78 Q370,78 370,98 L370,345 Q370,370 348,370 L330,370"
+        fill="none" stroke="#c46a1a" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="260" cy="80" r="4" fill="#c46a1a"/>
+  <text x="58" y="160" fill="#c46a1a" font-weight="bold">bare</text>
+  <text x="58" y="176" fill="#c46a1a" font-weight="bold">copper</text>
+  <text x="58" y="192" fill="#c46a1a" font-weight="bold">wire</text>
+
+  <!-- pivot callout -->
+  <line x1="266" y1="84" x2="300" y2="104" stroke="#555" stroke-width="1"/>
+  <text x="300" y="116" fill="#555" font-size="12">pivot on</text>
+  <text x="300" y="130" fill="#555" font-size="12">+ terminal</text>
+
+  <!-- sliding contact callout -->
+  <line x1="190" y1="372" x2="150" y2="410" stroke="#555" stroke-width="1"/>
+  <text x="120" y="425" fill="#555" font-size="12">sliding contact with magnet edge</text>
+
+  <!-- current arrows on the wire -->
+  <line x1="150" y1="200" x2="150" y2="240" stroke="#d62728" stroke-width="3" marker-end="url(#arrowCurrent)"/>
+  <line x1="370" y1="200" x2="370" y2="240" stroke="#d62728" stroke-width="3" marker-end="url(#arrowCurrent)"/>
+  <!-- current through the magnet toward the axis -->
+  <line x1="196" y1="364" x2="236" y2="364" stroke="#d62728" stroke-width="2.5" marker-end="url(#arrowCurrent)"/>
+  <line x1="324" y1="364" x2="284" y2="364" stroke="#d62728" stroke-width="2.5" marker-end="url(#arrowCurrent)"/>
+  <text x="395" y="215" fill="#d62728" font-weight="bold">I</text>
+  <text x="395" y="231" fill="#d62728" font-size="12">current flows down</text>
+  <text x="395" y="245" fill="#d62728" font-size="12">the wire, then inward</text>
+  <text x="395" y="259" fill="#d62728" font-size="12">through the magnet</text>
+
+  <!-- magnetic field -->
+  <line x1="205" y1="352" x2="205" y2="318" stroke="#1f77b4" stroke-width="2.5" marker-end="url(#arrowField)"/>
+  <line x1="315" y1="352" x2="315" y2="318" stroke="#1f77b4" stroke-width="2.5" marker-end="url(#arrowField)"/>
+  <text x="168" y="318" fill="#1f77b4" font-weight="bold">B</text>
+</svg>

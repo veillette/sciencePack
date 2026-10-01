@@ -19,7 +19,7 @@ In this program, you will learn to use Jupyter notebooks for data analysis and s
 | 3 | [Oscilloscope](Session03Oscilloscope) | Measuring frequency, the speed of light in a coaxial cable, and sound with a speaker |
 | 4 | [Soldering](Session04Soldering) | Soldering guide, slides, comic, and kit instructions |
 | 5 | [Computer-Aided Design and 3D Printing](Session05ComputerAidedDesign) | Installing Autodesk Inventor, designing a phone stand, printing and post-processing with the Form 2 |
-| 6 | [Build a Motor](Session06BuildAMotor) | Motor-building procedure |
+| 6 | [Build a Motor](Session06BuildAMotor) | Motor-building procedure and a guide to the [monopolar motor](Session06BuildAMotor/monopolarMotor.md) |
 | 7 | [Astronomy Night](Session07AstronomyNight) | Using the Celestron NexStar 8SE telescope |
 | 8 | [Microcontrollers](Session08MicroController) | Programming the Adafruit Feather M4 Express with CircuitPython |
 

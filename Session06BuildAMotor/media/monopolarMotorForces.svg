@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 460" width="560" height="460" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="arrowCurrent" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d62728"/>
+    </marker>
+    <marker id="arrowForce" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9467bd"/>
+    </marker>
+    <marker id="arrowSpin" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ca02c"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="560" height="460" rx="12" fill="#ffffff"/>
+  <text x="280" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#222">Looking down on the magnet (north pole up)</text>
+
+  <!-- magnet face -->
+  <circle cx="280" cy="235" r="150" fill="#e4e4ee" stroke="#555" stroke-width="1.5"/>
+  <!-- battery footprint -->
+  <circle cx="280" cy="235" r="38" fill="#444"/>
+  <text x="280" y="240" text-anchor="middle" fill="#fff" font-size="12">battery −</text>
+
+  <!-- B out of page: dots in circles -->
+  <g fill="none" stroke="#1f77b4" stroke-width="1.5">
+    <circle cx="200" cy="150" r="8"/><circle cx="360" cy="150" r="8"/>
+    <circle cx="200" cy="320" r="8"/><circle cx="360" cy="320" r="8"/>
+    <circle cx="280" cy="120" r="8"/><circle cx="280" cy="350" r="8"/>
+  </g>
+  <g fill="#1f77b4">
+    <circle cx="200" cy="150" r="2.5"/><circle cx="360" cy="150" r="2.5"/>
+    <circle cx="200" cy="320" r="2.5"/><circle cx="360" cy="320" r="2.5"/>
+    <circle cx="280" cy="120" r="2.5"/><circle cx="280" cy="350" r="2.5"/>
+  </g>
+
+  <!-- wire contact points -->
+  <circle cx="130" cy="235" r="6" fill="#c46a1a"/>
+  <circle cx="430" cy="235" r="6" fill="#c46a1a"/>
+  <text x="20" y="215" fill="#c46a1a" font-size="12">wire touches</text>
+  <text x="20" y="230" fill="#c46a1a" font-size="12">here</text>
+  <text x="470" y="215" fill="#c46a1a" font-size="12">wire touches</text>
+  <text x="470" y="230" fill="#c46a1a" font-size="12">here</text>
+
+  <!-- radial current toward the axis -->
+  <line x1="140" y1="235" x2="230" y2="235" stroke="#d62728" stroke-width="3" marker-end="url(#arrowCurrent)"/>
+  <line x1="420" y1="235" x2="330" y2="235" stroke="#d62728" stroke-width="3" marker-end="url(#arrowCurrent)"/>
+  <text x="180" y="226" fill="#d62728" font-weight="bold">I</text>
+  <text x="372" y="226" fill="#d62728" font-weight="bold">I</text>
+
+  <!-- tangential force -->
+  <line x1="165" y1="245" x2="165" y2="300" stroke="#9467bd" stroke-width="3" marker-end="url(#arrowForce)"/>
+  <line x1="395" y1="225" x2="395" y2="170" stroke="#9467bd" stroke-width="3" marker-end="url(#arrowForce)"/>
+  <text x="140" y="320" fill="#9467bd" font-weight="bold">F</text>
+  <text x="372" y="180" fill="#9467bd" font-weight="bold">F</text>
+
+  <!-- rotation sense: counter-clockwise seen from above -->
+  <path d="M418,330 A175,175 0 0 1 142,330" fill="none" stroke="#2ca02c" stroke-width="2.5" marker-start="url(#arrowSpin)" transform="rotate(180 280 235)"/>
+  <text x="280" y="50" text-anchor="middle" fill="#2ca02c" font-weight="bold">counter-clockwise</text>
+
+  <!-- legend -->
+  <g font-size="12">
+    <circle cx="40" cy="410" r="7" fill="none" stroke="#1f77b4" stroke-width="1.5"/>
+    <circle cx="40" cy="410" r="2.2" fill="#1f77b4"/>
+    <text x="54" y="414" fill="#333">B points out of the page (toward you)</text>
+    <line x1="295" y1="410" x2="322" y2="410" stroke="#d62728" stroke-width="3" marker-end="url(#arrowCurrent)"/>
+    <text x="342" y="414" fill="#333">current I</text>
+    <line x1="420" y1="410" x2="447" y2="410" stroke="#9467bd" stroke-width="3" marker-end="url(#arrowForce)"/>
+    <text x="462" y="414" fill="#333">force F</text>
+    <text x="280" y="442" text-anchor="middle" fill="#333">F = I L × B is always perpendicular to both the current and the field</text>
+  </g>
+</svg>
